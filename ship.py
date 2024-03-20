@@ -15,7 +15,7 @@ class Ship():
 		self.speed = 1
 		self.movingRight = False
 		self.movingLeft = False
-		self.movingUp = Falses
+		self.movingUp = False
 		self.movingDown = False
 	def update_pos(self):
 		if self.movingRight:
