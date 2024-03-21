@@ -17,9 +17,7 @@ class Bullet(Sprite):
 	
 	def update(self):
 		self.y -= self.speed_factor
-		self.rect.y = self.y
+		self.rect.y = self.y	
 		
-		
-	def draw_bullet(self):
-		
+	def draw_bullet(self):		
 		pygame.draw.rect(self.screen, self.color, self.rect)
